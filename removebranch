@@ -1,0 +1,12 @@
+●To delete a remote branch
+
+git push origin :dev
+git push origin :test
+
+● To delete a local branch
+if it is merged
+git branch -d dev
+
+if it not merged yet
+git branch -D test
+
